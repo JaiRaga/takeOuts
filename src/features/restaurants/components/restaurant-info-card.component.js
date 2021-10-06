@@ -4,7 +4,7 @@ import { Text, StyleSheet } from 'react-native'
 import { Card, Paragraph, Title } from 'react-native-paper'
 
 const RestaurantCardCover = styled(Card.Cover)`
-	padding: 16px;
+	padding: ${(props) => props.theme.space[3]};
 	background-color: #fff;
 `
 
